@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>weatherApp</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,700,400' rel='stylesheet' type='text/css'>
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+    <div class="container">
+  	<div class="row">
+      <header class="col-xs-12 text-center">
+        <h1>Local Weather App</h1>
+      </header>
+
+      <div class="col-xs-8 col-xs-offset-2">
+        <div class="text-center status">
+          <p><span id="city"></span> <span id="country"></span></p>
+          <p><span id="temp"></span><span class="temp" id="tempunit" ></span></p>
+          <p id="desc"></p>     
+          
+          <div class="wi wi-rain-mix hide drizzle"> </div>
+          <div class="wi wi-cloudy hide clouds"> </div>
+          <div class="wi wi-rain hide rain"> </div>
+          <div class="wi wi-snow hide snow"> </div>
+          <div class="icon wi wi-day-sunny hide clear"> </div>
+          <div class="wi wi-thunderstorm hide thunderstorm"> </div>
+        </div>
+      </div>
+  	</div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

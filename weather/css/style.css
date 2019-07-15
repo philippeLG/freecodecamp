@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto',sans-serif;
+  color: #fff;
+  text-align: center;
+  background: url(https://s3-eu-west-1.amazonaws.com/plg001/14403498797_7c9889fb6b_k.jpg);
+  backgroundPosition: "center";
+  backgroundRepeat: "no-repeat";
+  backgroundSize: "cover";
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.status p {
+  font-size: 1.8em;
+  text-transform: capitalize;
+}
+
+/** switch °C / °F */
+.temp{
+  cursor:pointer;
+  color:#006dcc;
+}
+.temp:hover{
+  color:#005096;
+}
+
+/** Show / hide icons */
+div.hide {
+  display: none;
+}
+
+/** icon */ 
+.icon {
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  font-size:40px;
+}
+

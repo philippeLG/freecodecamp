@@ -1,0 +1,79 @@
+ html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+ h1, h2, a {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+  }
+
+p {
+    font-family: Helvetica, Arial, sans-serif; 
+  }
+
+ /* Main */
+  .main {
+    text-align: center;
+    background: url(https://s3-eu-west-1.amazonaws.com/plg001/sf.jpg) no-repeat center center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1152px; 
+  }
+
+.main .container {
+    position: relative;
+}
+
+.main p {
+    color: #fff;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+ }
+
+/* Quote box */
+.quote-box {
+  border-radius:3px;
+  position:relative;
+  margin:8% auto auto auto;
+  width:450px;
+  padding:40px 50px;
+  display:table;
+  background-color:#000;
+  border-radius:15%
+}
+.quote-text {
+  text-align:center;
+  width:450px;
+  height:auto;
+  clear:both;
+  font-weight:500;
+  font-size:1.75em;
+  color:#fff;
+}
+.quote-author {
+    width:450px;
+    height:auto;
+    clear:both;
+    padding-top:20px;
+    font-size:1em; 
+    text-align:right;
+    color:#fff;
+}
+.button {
+  height:38px;
+  border:none;
+  border-radius:3px;
+  color:#fff;
+  background-color:#333;
+  outline:none;
+  font-size:0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top:30px;
+  opacity:1;
+  cursor:pointer;
+}
+.button:hover { opacity:0.5; }

@@ -1,0 +1,49 @@
+body{
+  margin:0;
+  padding:0;
+  color:#666;
+  background:#888;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:20px;
+}
+
+h3{
+  color:#2a70b2;
+  font-weight:bold;
+  text-align:center;
+}
+a{
+  color:#2a70b2;
+}
+a:hover,a:focus{color:##0e61af;
+}
+#banner {background:#aaa;
+}
+
+main header{background:#fff;color:#000;text-align:center;padding:70px 10% 50px;
+}
+
+main header .intro-text img{border-radius:50%;
+}
+
+#portfolio{background:#fff;color:#000;text-align:center;padding:70px 10% 50px;
+}
+
+#portfolio img{height:300px}
+
+#contact{background:#fff;color:#000;text-align:center;padding:10%;
+}
+#contact {
+   padding-top: 80px;
+   padding-bottom: 100px;
+}
+
+#contact .col {
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+footer {background:#aaa;
+}

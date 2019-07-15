@@ -1,0 +1,40 @@
+.main  {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #708060;
+}
+
+
+.container {
+    height: 600px;
+    width: 950px;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    align-self: center;
+    position: relative;
+}
+
+.bar:hover {
+      fill: #baffff;
+      
+  }
+
+#title {
+      text-align: center;
+      font-size: 2.5em; }
+
+#tooltip {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  padding: 2px;
+  font: 12px;
+  background: lightsteelblue;
+  box-shadow: 1px 1px 10px;
+  border-radius: 2px;
+  pointer-events: none;
+}

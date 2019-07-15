@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>pomodoroClock</title>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1>Pomodoro Clock</h1>
+
+<main ng-app="TimerApp" ng-controller="MainCtrl">
+  
+  <header>
+    <div class="session">
+      <div class="sessionCtrl">
+        <button class="minus" ng-click="sessionLengthChange(-1)">-</button><span class="time">{{timerLength}}</span>
+        <button class="plus" ng-click="sessionLengthChange(1)">+</button>
+        <button class="reset" ng-click="sessionLengthChange(0)">Reset</button>
+      </div>
+    </div>
+  </header>
+
+<section ng-click="switchTimer()">
+    <div class="timer">
+      <p class="timeLeft">{{timeLeft}}</p>
+    </div>
+  </section>
+
+</main>
+
+<footer id="footer" class="text-center">
+  <div class="container">
+    FreeCodeCamp Plegoff
+  </div>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

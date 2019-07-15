@@ -1,0 +1,17 @@
+body {
+  font-family: 'Roboto';
+  color: #fff;
+  background-color: #161616;
+}
+
+input[type='text'] {
+  color: #000;
+  border-radius: 20px;
+  font-size:large;
+}
+
+results {
+  font-size:large;
+}
+
+

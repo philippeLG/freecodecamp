@@ -1,0 +1,73 @@
+body {
+  background-color: #5477af;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  color: #e57614;
+  font-size: 5em;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding: 20px;
+}
+header .session {
+  font-size: .8em;
+  display: flex;
+}
+header .session .breakCtrl, header .session .sessionCtrl {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+header .session .minus, header .session .plus, header .session .reset {
+  border-radius: 8px;
+  border: none;
+  margin: 0 4px 10px 8px;
+  height: 40px;
+  width: 50px;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+}
+header .session .time {
+  font-size: 2.5em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section {
+  height: 100%;
+}
+section .timeLeft {
+  text-align: center;
+  font-size: 6em;
+}
+section .timer {
+  margin: 0 auto;
+  background-color: #a5ad96;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  cursor: pointer;
+  width: 400px;
+  height: 300px;
+  border: 6px solid #e57614;
+  border-radius: 10%;
+}
+
+#footer {
+  font-family: 'Indie Flower', cursive;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 40px;
+  width: 100%;
+  height: 40px;
+}
