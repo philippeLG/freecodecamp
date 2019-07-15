@@ -1,5 +1,6 @@
 {
-	"name": "Philippe Le Goff",
+	"name": "fcc-learn-npm-package-json",
+	"author": "Philippe Le Goff",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
